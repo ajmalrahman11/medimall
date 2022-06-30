@@ -146,6 +146,23 @@ h2 {
     color: #17b49f;
 }
 
-h3{
+h3 {
     color: teal;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .blog-categories,
+    .footer-above,
+    .foot {
+        display: flex;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .down-button-top {
+        display: none;
+    }
 }
